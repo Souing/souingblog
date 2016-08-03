@@ -21,16 +21,16 @@ Content Cell  | Content Cell
 | Content Cell  | Content Cell  |
 
 | 名字 | 描述          |
-| ------------- | ----------- |
+|-------------| -----------|
 | Help      | Display the help window.|
 | Close     | Closes a window     |
 
 表格中也可以使用普通文本的删除线，斜体等效果
 
 | 名字 | 描述          |
-| ------------- | ----------- |
-| Help      | ~~Display the~~ help window.|
-| Close     | _Closes_ a window     |
+|-------------| -----------|
+| Help      | ~~Display~~ the help window.|
+| Close     | __Closes__ a window     |
 
 表格可以指定对齐方式
 
@@ -40,3 +40,27 @@ Content Cell  | Content Cell
 | col 3 is      | some wordy text | $1600 |
 | col 2 is      | centered        |   $12 |
 | zebra stripes | are neat        |    $1 |
+
+###块引用有多级结构
+>数据结构
+>>树
+>>>二叉树
+>>>>平衡二叉树
+>>>>>满二叉树
+
+## <a name="code"/>代码高亮
+```Java
+public static void main(String[]args){} //Java
+```
+```c
+int main(int argc, char *argv[]) //C
+```
+```Bash
+echo "hello GitHub"#Bash
+```
+```javascript
+document.getElementById("myH1").innerHTML="Welcome to my Homepage"; //javascipt
+```
+```cpp
+string &operator+(const string& A,const string& B) //cpp
+```
