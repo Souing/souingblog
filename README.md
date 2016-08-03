@@ -10,12 +10,12 @@ Github的Markdown语法支持添加emoji表情，输入不同的符号码（两�
 #
 
 表头1  | 表头2
-------------- | -------------
+---------- | -----------
 Content Cell  | Content Cell
 Content Cell  | Content Cell
 
 
 |表头1  | 表头2|
-|------------- | -------------|
+|---------- | ----------|
 |Content Cell  | Content Cell|
 |Content Cell  | Content Cell|
